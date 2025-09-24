@@ -1,0 +1,10 @@
+Project Description:
+This project demonstrates a simple and practical implementation of Li-Fi (Light Fidelity) communication using UART (Universal Asynchronous Receiver/Transmitter) between two Arduino boards. Li-Fi is a wireless data transmission method that uses visible light instead of radio waves, offering benefits such as enhanced security, reduced interference, and potential for high-speed data transfer. This project focuses on building a basic, low-cost Li-Fi system suitable for learning and experimentation.
+
+In this setup, an LED acts as the transmitter and a photodiode functions as the receiver. The transmitting Arduino board sends serial data by quickly switching the LED on and off according to the UART signal. These light pulses are received by the photodiode, which converts them back into electrical signals. The receiving Arduino interprets the signals as binary data and reconstructs the original message, which is then displayed through the Serial Monitor.
+
+The hardware is simple and affordable, requiring only basic components like LEDs, resistors, and a photodiode. The system operates at a baud rate of 9600, which is ideal for basic communication. By upgrading the components, such as using high-power LEDs or sensitive photodiodes, the range and reliability of the communication can be improved.
+
+This project is excellent for students, hobbyists, and beginners who want to explore optical wireless communication and learn how serial data can be transmitted using light. It demonstrates the potential of Li-Fi for secure, short-range data transfer in embedded systems and IoT applications. Future enhancements may include adding error detection, using modulation techniques for better performance, increasing the communication range, and enabling two-way communication.
+
+Overall, this project offers a hands-on introduction to the principles of Li-Fi and UART communication while showcasing how simple electronic components can be used to create innovative and practical data transmission systems.
